@@ -1,0 +1,17 @@
+---
+ layout: default
+---
+
+ {% assign lang = page.lang | default: site.lang | default: "fr" %}
+
+ {% include hero-page.html title=page.title %}
+
+ <section class="fr-py-2w fr-pt-4w" id="agenda">
+     <div class="fr-container">
+       <div class="fr-grid-row fr-grid-row--gutters">
+         <div class="fr-col-md-10 fr-col-12 fr-col-offset-md-1">
+           <embed type="text/html" name="iframe1" id="iframe1" src="https://calendar.google.com/calendar/u/0/embed?src=0ieonqap1r5jeal5ugeuhoovlg@group.calendar.google.com&ctz=Europe/Paris&pli=1" height="600px" width="100%" frameborder="0"></embed>
+         </div>
+     </div>
+     </div>
+ </section>

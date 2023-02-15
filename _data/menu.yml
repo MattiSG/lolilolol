@@ -16,6 +16,10 @@ nav:
   -
     label: Recrutement
     target: _pages/recrutement.md
+  -
+    label: Agenda
+    target: _pages/agenda.md
+    
 shortcuts:
   -
     label: Documentation
@@ -28,4 +32,5 @@ shortcuts:
   -
     label: Espace Membre
     external: true
-    url: https://espace-membre.incubateur.net
+    url: https://espace-membre.incubateur.net 
+ 
