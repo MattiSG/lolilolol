@@ -16,6 +16,9 @@ usertypes:
   - etat
   - collectivite-territoriale
 dashlord_url: 
+thematiques : 
+  - Transition Écologique
+  - Mer
 ---
 
 ## Le constat

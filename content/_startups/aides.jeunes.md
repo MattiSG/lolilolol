@@ -19,6 +19,9 @@ phases:
     end: 2023-01-13
   - name: acceleration
     start: 2023-01-13
+thematiques : 
+  - Collectivités
+  - Cartographie
 ---
 ## Problème
 

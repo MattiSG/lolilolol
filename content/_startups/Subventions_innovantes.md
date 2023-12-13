@@ -10,6 +10,9 @@ usertypes:
 phases:
   - name: investigation
     start: 2023-05-31
+thematiques : 
+  - Transition Écologique
+  - Territoires
 ---
 # Renforcer la place des PME et l'impact dans les subventions de l'Etat
 

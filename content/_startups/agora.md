@@ -14,6 +14,10 @@ phases:
     end: 2023-01-26
   - name: construction
     start: 2023-04-03
+thematiques : 
+  - Inclusion numérique
+  - Social
+  - Collectivités
 ---
 ## Contexte
 

@@ -23,6 +23,10 @@ redirect_from:
   - /startups/lotocar
 usertypes:
   - particulier
+thematiques : 
+  - Transport
+  - Collectivités
+  - Transition Écologique
 ---
 
 **CoMobi outille les territoires peu denses pour déployer du covoiturage solidaire, basé sur les trajets régulièrement effectués en voiture, pour les personnes isolées et dépourvues de moyens de déplacement.**

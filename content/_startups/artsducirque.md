@@ -14,6 +14,9 @@ stats: false
 contact: ateliernumerique.snum@culture.gouv.fr
 usertypes:
   - particulier
+thematiques : 
+  - Patrimoine
+  - Culture
 ---
 
 ### Contexte 

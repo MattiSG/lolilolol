@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Collectivités
+  - Economie
 ---
 Contrôle de gestion interne, reporting et suivi de consommation des subventions accordées
 Collectivité sponsor : 

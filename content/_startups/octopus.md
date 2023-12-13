@@ -14,6 +14,9 @@ phases:
     start: 2021-06-01
 usertypes:
   - etat
+thematiques : 
+  - Formation
+  - Open Data
 ---
 ## Contexte
 

@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Inclusion Numérique
+  - Collectivités
 ---
 Problème visé :
 ---------------

@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Social
+  - Collectivités
 ---
 Chaque été, entre 80 et 120 enfants sont accueillis au centre de loisirs de Marseillan.
 

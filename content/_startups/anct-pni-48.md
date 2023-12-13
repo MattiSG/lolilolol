@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Collectivités
+  - Culture
 ---
 Acculturation de l'administration (300 agents) et des élus au "mode projet" et à de nouvelles méthodes de travail, plus transversales au sein de la collectivité
 Collectivité sponsor : Argelès-sur-Mer

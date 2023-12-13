@@ -19,6 +19,9 @@ usertypes:
   - etat
   - collectivite-territoriale
 accessibility_status: partiellement conforme
+thematiques : 
+  - Logement
+  - Open Data
 ---
 ## Contexte
 

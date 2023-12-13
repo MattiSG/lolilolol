@@ -16,6 +16,10 @@ stats_url:
 contact: contactincubateur@anct.gouv.fr 
 usertypes:
   - collectivite-territoriale
+thematiques : 
+  - Collectivités
+  - Santé
+  - Jeunesse
 ---
 
 ## Problème visé :

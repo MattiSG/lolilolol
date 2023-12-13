@@ -18,6 +18,9 @@ phases:
     start: 2022-08-11
     comment: Prototypage du formulaire de demande de bourses à l'aide de Démarches
       simplifiées
+thematiques : 
+  - Jeunesse
+  - Sport
 ---
 
 ## Contexte

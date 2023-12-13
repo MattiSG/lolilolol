@@ -18,6 +18,9 @@ contact: contactincubateur@anct.gouv.fr
 usertypes:
   - particulier
   - etablissement-scolaire
+thematiques : 
+  - Jeunesse
+  - Collectivités
 ---
 
 ## Problème: en France, un tiers des élèves n’utilisent pas les sanitaires des collèges

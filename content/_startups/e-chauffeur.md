@@ -16,6 +16,9 @@ usertypes:
 repository: https://gitlab.com/fabnum-minarm/e-chauffeur/
 stats: false
 contact: romain.perroud@def.gouv.fr
+thematiques : 
+  - Jeunesse
+  - Formation
 ---
 
 ## Contexte 

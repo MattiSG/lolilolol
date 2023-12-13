@@ -21,6 +21,9 @@ stats: true
 stats_url: https://particulier.api.gouv.fr/stats.html
 contact: contact@particulier.api.gouv.fr
 
+thematiques : 
+  - Collectivités
+  - Open Data
 ---
 
 ## Le problème

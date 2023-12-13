@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Social
+  - Collectivités
 ---
 Un espace collaboratif autour de l’enfant
 Collectivité sponsor : Les Mureaux

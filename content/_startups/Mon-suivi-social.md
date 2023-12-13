@@ -22,6 +22,9 @@ phases:
     start: 2022-03-01
   - name: acceleration
     start: 2023-09-04
+thematiques : 
+  - Transition Écologique
+  - Consommation
 ---
 ### 🏗 Contexte/problème
 

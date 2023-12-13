@@ -18,6 +18,9 @@ phases:
 link: https://nata.fabrique.social.gouv.fr/
 stats_url: >-
   https://matomo-metabase-nata.fabrique.social.gouv.fr/dashboard/1-nata?lieu=France&granularit%25C3%25A9=month
+thematiques : 
+  - Emploi
+  - Ressources Humaines
 ---
 ##### LE PROBLEME
 

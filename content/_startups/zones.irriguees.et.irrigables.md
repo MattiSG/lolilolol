@@ -10,6 +10,9 @@ phases:
   - name: investigation
     start: 2023-09-04
     end: 2024-01-04
+thematiques : 
+  - Jeunesse
+  - Santé
 ---
 ### **Le contexte**
 

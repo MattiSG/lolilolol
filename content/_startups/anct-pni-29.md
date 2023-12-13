@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Social
+  - Collectivités
 ---
 L'accueil numérique des personnes confrontées à des difficultés sociales dans le cadre du Premier Accueil Social Inconditionnel de Proximité (PASIP)
 Collectivité sponsor : 

@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Culture
+  - Collectivités
 ---
 Gestion des équipements municipaux (sportifs, culturels, associatifs...)
 

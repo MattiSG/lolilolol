@@ -11,6 +11,9 @@ sponsors:
 phases:
   - name: investigation
     start: 2023-08-21
+thematiques : 
+  - Transition Écologique
+  - Consommation
 ---
 Pour t'aider dans la rédaction de ta fiche produit, nous te recommandons de suivre ce plan: 
 

@@ -13,6 +13,10 @@ phases:
     start: 2020-02-01
 usertypes:
   - particulier
+thematiques : 
+  - Collectivités
+  - Emploi
+  - Jeunesse
 ---
 **Un problème majeur**
 

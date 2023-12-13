@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Social
+  - Collectivités
 ---
 Amélioration des échanges entre administrés et collectivité
 Collectivité sponsor : Is-sur-Tille

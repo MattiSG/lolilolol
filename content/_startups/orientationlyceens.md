@@ -8,6 +8,9 @@ sponsors:
 phases:
   - name: investigation
     start: 2023-11-07
+thematiques : 
+  - Formation
+  - Jeunesse
 ---
 ## Contexte
 

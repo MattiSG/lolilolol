@@ -16,6 +16,9 @@ phases:
   - name: construction
     start: 2022-11-01
 
+thematiques : 
+  - Social
+  - Collectivités
 ---
 
 

@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Social
+  - Collectivités
 ---
 Initialement, l’investigation menée visait à améliorer la distribution des paniers alimentaires sur la Ville de Saint-Ouen en optimisant la coordination entre les associations tout en garantissant l’anonymat et en préservant la dignité des personnes concernées.
 

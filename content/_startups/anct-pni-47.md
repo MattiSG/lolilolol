@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Collectivités
+  - Social
 ---
 Accompagner l'opération de revitalisation de territoire (ORT) en cœur de ville de la commune de Louvres pour inscrire ce périmètre dans une réflexion concrète "smart city" favorisant la dynamique économique, sociale, culturelle et digitale de ces espaces.
 

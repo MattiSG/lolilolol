@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Social
+  - Collectivités
 ---
 Accompagnement des nouveaux habitants (étudiants, migrants...) dans la découverte de leur nouvelle ville (culture, démarches administratives etc) + collecte data sur ces habitants (enjeu de démocratie participative)
 Collectivité sponsor : Épinal

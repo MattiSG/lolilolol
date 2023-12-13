@@ -17,6 +17,9 @@ stats_url:
 contact: incubateur@anct.gouv.fr
 usertypes:
   - entreprise
+thematiques : 
+  - Finance
+  - Collectivités
 ---
 
 ## Problème visé

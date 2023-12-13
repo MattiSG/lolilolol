@@ -9,6 +9,10 @@ phases:
   - name: construction
     start: 2023-06-01
 
+thematiques : 
+  - Transition Écologique
+  - Rénovation energétique
+  - logement
 ---
 ## En cours de construction
 

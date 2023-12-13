@@ -20,6 +20,9 @@ usertypes:
   - particulier
 dashlord_url: https://socialgouv.github.io/dashlord-fabrique/url/tumeplay-fabrique-social-gouv-fr/
 accessibility_status: non conforme
+thematiques : 
+  - Égalité
+  - Emploi
 ---
 
 # Nos constats

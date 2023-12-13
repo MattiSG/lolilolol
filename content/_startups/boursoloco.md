@@ -15,6 +15,9 @@ stats: false
 contact: contactincubateur@anct.gouv.fr
 usertypes:
   - entreprise
+thematiques : 
+  - Économie
+  - Emploi
 ---
 Recenser et cartographier les acteurs économiques du territoire
 

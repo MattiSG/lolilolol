@@ -15,6 +15,9 @@ phases:
     start: 2022-01-01
 usertypes:
   - etat
+thematiques : 
+  - Patrimoine
+  - crowdsoucing
 ---
 
 ## Contexte

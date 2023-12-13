@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Transition Écologique
+  - Collectivités
 ---
 ### Diminuer l’usage individuel de la voiture les trajets du quotidien par le développement de ses usages partagés
 

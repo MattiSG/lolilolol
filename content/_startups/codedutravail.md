@@ -27,6 +27,9 @@ techno:
 usertypes:
   - entreprise
   - particulier
+thematiques : 
+  - Logement
+  - Jeunesse
 ---
 
 ## Qu’est-ce que le Code du travail numérique ?

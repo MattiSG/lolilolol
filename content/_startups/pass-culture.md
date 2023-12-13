@@ -25,6 +25,9 @@ stats: false
 contact: support.passculture@beta.gouv.fr
 usertypes:
   - particulier
+thematiques : 
+  - Formation
+  - Jeunesse
 ---
 
 Retrouvez toutes les informations sur l'expérimentation du Pass Culture sur notre site [pass.culture.fr](https://pass.culture.fr)

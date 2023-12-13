@@ -16,6 +16,9 @@ stats_url:
 contact: contactincubateur@anct.gouv.fr
 usertypes:
   - particulier
+thematiques : 
+  - Collectivités
+  - Social
 ---
 
 ## Problème visé :

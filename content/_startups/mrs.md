@@ -22,6 +22,9 @@ contact: frederic.boulay@beta.gouv.fr
 usertypes:
   - particulier
   - etat
+thematiques : 
+  - Juridique
+  - Diplomatie
 ---
 
 ## Fiche produit

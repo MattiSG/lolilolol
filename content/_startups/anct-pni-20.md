@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Social
+  - Collectivités
 ---
 Suivre l'impact des engagements usagers du CD93 par des indicateurs de la qualité perçue par les usagers en complément de la démarche d'indicateurs de gestion portée par la DirFi
 

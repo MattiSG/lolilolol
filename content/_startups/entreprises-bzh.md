@@ -16,6 +16,10 @@ stats_url:
 contact: contactincubateur@anct.gouv.fr
 usertypes:
   - entreprise
+thematiques : 
+  - Économie
+  - Emploi
+  - Agriculture
 ---
 
 ## Problème visé :

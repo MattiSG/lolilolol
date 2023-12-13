@@ -9,6 +9,9 @@ accessibility_status: non conforme
 phases:
   - name: investigation
     start: 2023-07-07
+thematiques : 
+  - Formation
+  - Jeunesse
 ---
 
 ## Contexte

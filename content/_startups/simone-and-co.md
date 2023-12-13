@@ -17,6 +17,10 @@ stats_url:
 contact: vikieache@gmail.com
 usertypes:
   - particulier
+thematiques : 
+  - Collectivités
+  - Emploi
+  - Social
 ---
 
 ## Problème visé :

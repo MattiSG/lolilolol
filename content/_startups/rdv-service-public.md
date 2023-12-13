@@ -32,6 +32,9 @@ phases:
     start: 2018-01-18
   - name: acceleration
     start: 2019-04-01
+thematiques : 
+  - Transition Écologique
+  - Mer
 ---
 <div class="fr-callout fr-fi-information-line">
     <h3 class="fr-callout__title">

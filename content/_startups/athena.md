@@ -15,6 +15,9 @@ phases:
     start: 2023-11-13
 usertypes:
   - etat
+thematiques : 
+  - Collectivités
+  - Open Data
 ---
 ## Contexte
 - Équipe sponsorisée par le Ministère des armées et le SGDSN.

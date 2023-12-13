@@ -17,6 +17,9 @@ stats: false
 contact: contact@partaj.beta.gouv.fr
 usertypes:
   - etat
+thematiques : 
+  - Formation
+  - Jeunesse
 ---
 ## Le contexte
 

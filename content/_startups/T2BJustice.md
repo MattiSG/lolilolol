@@ -23,6 +23,9 @@ phases:
     start: 2023-10-10
     comment: Construction sur un périmètre de juridictions restreint.
 
+thematiques : 
+  - Transition Écologique
+  - Diagnostique
 ---
 ## Contexte
 - [Les enseignements des Etats généraux de la justice](http://www.justice.gouv.fr/plan-daction-pour-la-justice-13010/) 

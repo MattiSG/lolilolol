@@ -34,6 +34,9 @@ phases:
 fast:
   promotion: 13
   montant: 300000
+thematiques : 
+  - Transition Écologique
+  - Diagnostique
 ---
 <!--StartFragment-->
 
@@ -105,6 +108,9 @@ Pour cela, A-JUST a pour objectif de permettre aux juridictions de visualiser et
 
 Visualisation, corrélation, simulation… A-JUST se définit comme un outil  d’aide à la décision et de prospective.
 
+thematiques : 
+  - Transition Écologique
+  - Diagnostique
 ---
 
 ¹ Pénal, civil, social, commercial…

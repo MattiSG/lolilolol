@@ -11,6 +11,10 @@ phases:
 stats: false
 stats_url:
 contact: reformes-locales@anct.gouv.fr
+thematiques : 
+  - Transport
+  - Transition Écologique
+  - Energie
 ---
 
 ## Contexte

@@ -43,6 +43,9 @@ phases:
     end: 2023-01-17
   - name : success
     start : 2023-01-17
+thematiques : 
+  - Collectivités
+  - Transition Écologique
 ---
 # Le contexte
 

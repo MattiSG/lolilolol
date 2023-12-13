@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Collectivités
+  - Social
 ---
 Redynamiser les commerces locaux par la "carte de fidélité stationnement"
 

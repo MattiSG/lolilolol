@@ -17,6 +17,9 @@ contact: contactincubateur@anct.gouv.fr
 usertypes:
   - collectivite-territoriale
   - particulier
+thematiques : 
+  - Formation
+  - Jeunesse
 ---
 
 ## Problème visé :

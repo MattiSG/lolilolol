@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Collectivités
+  - Social
 ---
 Plateforme de livraison restaurateur-entreprises du territoire (dans le cadre du coopérative)
 

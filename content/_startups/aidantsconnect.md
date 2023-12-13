@@ -24,6 +24,9 @@ usertypes:
   - particulier
 dashlord_url: https://dashlord.incubateur.net/url/aidantsconnect-beta-gouv-fr/
 accessibility_status: non conforme
+thematiques : 
+  - Social
+  - Inclusion numérique
 ---
 ## Contexte
 

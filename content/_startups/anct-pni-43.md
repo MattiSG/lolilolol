@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Collectivités
+  - Culture
 ---
 Améliorer la communication et la coordination des EPLE du territoire
 Collectivité sponsor : 

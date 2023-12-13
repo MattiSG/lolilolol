@@ -17,6 +17,10 @@ stats: false
 contact: equipe@anais.beta.gouv.fr
 link: https://anais.beta.gouv.fr/
 dashlord_url: https://dashlord.incubateur.net/url/anais-beta-gouv-fr/
+thematiques : 
+  - Entreprises
+  - Economie
+  - Collectivités
 ---
 ## Contexte
 11 millions de km2 : c’est la surface de l’espace maritime français, le deuxième mondial. La Marine travaille à la maîtrise de cet espace, crucial pour notre sécurité nationale, la liberté des mers et la préservation des ressources naturelles. Ce travail passe entre autres par une maîtrise des données maritimes : elles sont massives et augmentent constamment avec la progression des échanges et des activités en mer.

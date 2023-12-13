@@ -26,6 +26,9 @@ phases:
 usertypes:
   - etat
   - etablissement-scolaire
+thematiques : 
+  - Emploi
+  - Jeunesse
 ---
 Ce produit a été transféré à l'ONISEP, qui se charge maintenant de sa maintenance et de son animation.
 

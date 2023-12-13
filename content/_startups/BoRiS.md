@@ -16,6 +16,9 @@ link: https://boris.beta.gouv.fr
 repository: https://github.com/betagouv/boris # ou page de description des dépôts s'il y en a plusieurs
 stats: false 
 contact: nathan.gaudelet@beta.gouv.fr 
+thematiques : 
+  - Transition Écologique
+  - Consommation
 ---
 
 ## Fiche produit

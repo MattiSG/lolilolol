@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Social
+  - Collectivités
 ---
 Pérenniser la plateforme de mise en relation et d'entraide entre habitants développée pendant la crise sanitaire
 Collectivité sponsor : Épinal

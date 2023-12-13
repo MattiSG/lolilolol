@@ -14,6 +14,9 @@ repository:
 stats: false
 stats_url: 
 contact: contactincubateur@anct.gouv.fr
+thematiques : 
+  - Social
+  - Transition Écologique
 ---
 Adaptation du commerce local aux enjeux numériques pour participer à l'attractivité des communes de la CC
 Collectivité sponsor : Bapaume

@@ -6,6 +6,10 @@ contact: esther.teboul@beta.gouv.fr
 phases:
   - name: investigation
     start: 2023-10-24
+thematiques : 
+  - Collectivités
+  - Social
+  - Santé
 ---
 ## Contexte
 

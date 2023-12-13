@@ -15,6 +15,9 @@ phases:
 usertypes:
   - particulier
   - etablissement-scolaire
+thematiques : 
+  - Collectivités
+  - Transition Écologique
 ---
 **Contexte**
 
