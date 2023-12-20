@@ -1,23 +1,26 @@
 ---
 title: BoRiS
-mission: Informer les bénéficiaires potentiels du Bail Réel Solidaire, simuler l'éligibilité au dispositif et mettre en relation les acheteurs avec les Organismes Fonciers Solidaires
-sponsors: 
- - /organisations/dinum
- - /organisations/dgaln 
-incubator: dinum 
-phases: 
+mission: >-
+  Informer les bénéficiaires potentiels du Bail Réel Solidaire, simuler
+  l'éligibilité au dispositif et mettre en relation les acheteurs avec les
+  Organismes Fonciers Solidaires
+sponsors:
+  - /organisations/dgaln
+  - /organisations/mtes
+incubator: dinum
+phases:
   - name: construction
-    start: 2023-09-01 
-events: 
+    start: 2023-09-01
+events:
   - name: committee
-    date: 2023-08-22 
-    comment: Comité de fin d'investigation 
+    date: 2023-08-22
+    comment: Comité de fin d'investigation
 link: https://boris.beta.gouv.fr
-repository: https://github.com/betagouv/boris # ou page de description des dépôts s'il y en a plusieurs
-stats: false 
-contact: nathan.gaudelet@beta.gouv.fr 
+repository: https://github.com/betagouv/boris
+stats: false
+contact: nathan.gaudelet@beta.gouv.fr
+accessibility_status: non conforme
 ---
-
 ## Fiche produit
 
 <h2>1,7 millions</h2>
