@@ -1,7 +1,8 @@
 ---
 title: MétierScope
-mission: Faciliter l'accès à des informations claires et pratiques sur les
-  métiers et les compétences
+mission: >-
+  Faciliter l'accès à des informations claires et pratiques sur les métiers et
+  les compétences
 sponsors:
   - /organisations/pole-emploi
 incubator: pole-emploi
@@ -20,6 +21,7 @@ phases:
     start: 2022-10-16
   - name: success
     start: 2023-10-19
+accessibility_status: partiellement conforme
 ---
 ### Problème
 
