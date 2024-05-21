@@ -22,8 +22,7 @@ function convertDate(inputFormat) {
 }
 
 var createAuthorCard = function (author) {
-  var card = document.createElement("div");
-  card.className = "fr-col-12 fr-col-sm-6 fr-col-md-4 fr-col-lg-3";
+  var card = document.createElement("tr");
   card.id = author.id;
   var totalStartups = [];
   if (author.startups) {
@@ -32,7 +31,7 @@ var createAuthorCard = function (author) {
   if (author.previously) {
     totalStartups = totalStartups.concat(author.previously);
   }
-  totalStartups = totalStartups.slice(0, 4);
+  totalStartups = totalStartups.slice(0, 10);
 
   let timestampNow = new Date();
   let authorEndDate;
@@ -75,30 +74,14 @@ function markupForCard(params) {
   const { title, detail, content, tags, other, avatar } = params;
 
   return `
-<div class="fr-card fr-card--grey">
-  <div class="fr-card__body">
-    <div class="fr-card__content">
-      <div class="fr-card__start">
-    <h3 class="fr-card__title fr-mb-2w">
-      ${title}
-    </h3>
-    <p class="fr-card__detail">
-      ${detail}
-    </p>
-    ${content ? '<p class="fr-card__desc">' + content + "</p>" : ""}
+<tr>
+  <td>${title}</td>
+  <td>${detail}</td>
+  <td>
     ${tags ? '<ul class="fr-tags-group">' + tags + "</ul>" : ""}
     ${!!other ? '<p class="fr-card__detail">' + other + "</p>" : ""}
-  </div>
-</div>
-</div>
-<div class="fr-card__header">
-  <div class="fr-card__img">
-    <div class="avatar fr-py-2w">
-      ${avatar}
-    </div>
-  </div>
-</div>
-</div>`;
+  </td>
+</tr>`;
 }
 
 var generateDataWithHtmlCards = function (members) {
@@ -137,11 +120,12 @@ var createIncubatorSelect = function (members, incubators, initValue) {
       ...d,
       html: createAuthorCard(d),
     }));
-    var alumnisToDisplay = alumnis.filter((alumni) => intersection(alumni.startups, selectedStartups) || alumni.incubator === value);
-    alumnisToDisplay = alumnisToDisplay.map((d) => ({
-      ...d,
-      html: createAuthorCard(d),
-    }));
+    // var alumnisToDisplay = alumnis.filter((alumni) => intersection(alumni.startups, selectedStartups) || alumni.incubator === value);
+    // alumnisToDisplay = alumnisToDisplay.map((d) => ({
+    //   ...d,
+    //   html: createAuthorCard(d),
+    // }));
+
     var documentFragmentCurrents = document.createDocumentFragment();
     for (var j = 0; j < currentsToDisplay.length; j++) {
       documentFragmentCurrents.appendChild(currentsToDisplay[j].html);
@@ -152,15 +136,15 @@ var createIncubatorSelect = function (members, incubators, initValue) {
     var countCurrentsElement = document.getElementById("currents-count");
     countCurrentsElement.innerHTML = currentsToDisplay.length;
 
-    var documentFragmentAlumnis = document.createDocumentFragment();
-    for (var j = 0; j < alumnisToDisplay.length; j++) {
-      documentFragmentAlumnis.appendChild(alumnisToDisplay[j].html);
-    }
-    var gridAlumnis = document.getElementsByClassName("alumnis")[0];
-    gridAlumnis.innerHTML = "";
-    gridAlumnis.appendChild(documentFragmentAlumnis);
-    var countAlumnisElement = document.getElementById("alumnis-count");
-    countAlumnisElement.innerHTML = alumnisToDisplay.length;
+    // var documentFragmentAlumnis = document.createDocumentFragment();
+    // for (var j = 0; j < alumnisToDisplay.length; j++) {
+    //   documentFragmentAlumnis.appendChild(alumnisToDisplay[j].html);
+    // }
+    // var gridAlumnis = document.getElementsByClassName("alumnis")[0];
+    // gridAlumnis.innerHTML = "";
+    // gridAlumnis.appendChild(documentFragmentAlumnis);
+    // var countAlumnisElement = document.getElementById("alumnis-count");
+    // countAlumnisElement.innerHTML = alumnisToDisplay.length;
 
     if (window.lozad) {
       const observer = lozad();

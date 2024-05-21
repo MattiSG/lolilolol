@@ -1,0 +1,50 @@
+{%- comment -%}
+  Appeler cette page avec un author
+  Ex : {%- include line-community.html author=author -%}
+{%- endcomment -%}
+
+{%- assign author= include.author -%}
+
+{%- comment -%}
+  Détecter si l'author est actif ou non. Par défaut, oui.
+{%- endcomment -%}
+
+{% assign empty_array = "" | split: "," %}
+{% assign startups = author.startups | default: empty_array %}
+{% assign previously = author.previously | default: empty_array %}
+
+<tr>
+    <td>{% if author.link.size > 0 %}
+            <a href="{{ author.link }}" target="_blank" rel="noopener" title="Site web de {{author.fullname}} - nouvelle fenêtre">{{ author.fullname }}</a>
+          {% else %}
+            {{ author.fullname }}
+          {% endif %}
+      </td>
+    <td>{{ author.role }}</td>
+    <td>
+      <ul class="fr-tags-group">
+        {% for startup in startups, limit: 10 %}
+          {% assign startup_id = "/startups/" | append: startup %}
+          {% assign this_startup = site.startups | find: "id", startup_id %}
+          {% if this_startup %}
+            <li>
+              <a class="fr-tag" href="{{ this_startup.url }}" target="_self">{{ this_startup.title }}</a>
+            </li>
+          {% else %}
+            {% continue %}
+          {% endif %}
+        {% endfor %}
+        {% for startup in previously, limit: 10 %}
+          {% assign startup_id = "/startups/" | append: startup %}
+          {% assign this_startup = site.startups | find: "id", startup_id %}
+          {% if this_startup %}
+            <li>
+              <a class="fr-tag" aria-disabled="true">{{ this_startup.title }}</a>
+            </li>
+          {% else %}
+            {% continue %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </td>
+</tr>

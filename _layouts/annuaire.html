@@ -3,7 +3,6 @@ layout: default
 ---
 
 {%- assign currents = site.authors | community: 'current', 'oldest' -%}
-{%- assign alumnis = site.authors | community: 'past', 'oldest' -%}
 {% assign lang = page.lang | default: site.lang | default: "en" %}
 {% assign incubators = site.incubators %}
 <script>
@@ -29,34 +28,6 @@ layout: default
                 ],
                 "previously": [
                     {% for previous_startup in current.previously %}
-                        "{{ previous_startup }}",
-                    {% endfor %}
-                ],
-            }
-        {% unless forloop.last %},{% endunless %}
-        {% endfor %}
-    ];
-    var alumnis = [
-        {% for alumni in alumnis %}
-            { "id"        : "{{ alumni.id }}",
-                "fullname": "{{ alumni.fullname}}",
-                "link": "{{ alumni.link }}",
-                "role": `{{ alumni.role | escape }}`,
-                {% if alumni.github %} "github": "{{ alumni.github }}",{% endif %}
-                {% if alumni.avatar %} "avatar": "{{ alumni.avatar }}",{% endif %}
-                "content" : `{{ alumni.content | escape  }}`,
-                "missions": [
-                    {% for mission in alumni.missions %}
-                        { "start": "{{mission.start}}", "end": "{{mission.end}}", "status": "{{mission.status}}", "employer": "{{mission.employer}}" }{% unless forloop.last %},{% endunless %}
-                    {% endfor %}
-                ],
-                "startups": [
-                    {% for startup in alumni.startups %}
-                        "{{ startup }}",
-                    {% endfor %}
-                ],
-                "previously": [
-                    {% for previous_startup in alumni.previously %}
                         "{{ previous_startup }}",
                     {% endfor %}
                 ],
@@ -145,30 +116,26 @@ layout: default
             </div>
         </div>
     </section>
-    <div class="fr-tabs">
-        <ul class="fr-tabs__list" role="tablist" aria-label="Changer de vue">
-            <li role="presentation">
-                <button id="tabpanel-actifs-button" class="fr-tabs__tab" tabindex="0" role="tab" aria-selected="true" aria-controls="tabpanel-actifs">Membres actifs</button>
-            </li>
-            <li role="presentation">
-                <button id="tabpanel-alumnis-button" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-alumnis">Alumni</button>
-            </li>
-        </ul>
-        <div id="tabpanel-actifs" class="fr-tabs__panel fr-tabs__panel--selected" role="tabpanel" aria-labelledby="tabpanel-actifs-button" tabindex="0">
-            <h2><span id="currents-count">{{ currents | size }}</span> membres actifs</h2>
-            <div class="authors fr-grid-row fr-grid-row--gutters">
-                {%- for author in currents -%}
-                <div class="fr-col-12 fr-col-sm-6 fr-col-md-4 fr-col-lg-3">{%- include card-community.html author=author -%}</div>
-                {%- endfor -%}
-            </div>
-        </div>
-        <div id="tabpanel-alumnis" class="fr-tabs__panel" role="tabpanel" aria-labelledby="tabpanel-alumnis-button" tabindex="-1">
-            <h2><span id="alumnis-count">{{ alumnis | size }}</span> alumni</h2>
-            <div class="alumnis fr-grid-row fr-grid-row--gutters">
-                {%- for author in alumnis -%}
-                <div class="fr-col-12 fr-col-sm-6 fr-col-md-4 fr-col-lg-3">{%- include card-community.html author=author -%}</div>
-                {%- endfor -%}
-            </div>
+
+    
+    <h2><span id="currents-count">{{ currents | size }}</span> membres actifs</h2>
+    <div class="fr-grid-row fr-grid-row--gutters">
+        <div class="fr-table fr-table--no-caption">
+            <table>
+                <caption>Membres de la communauté</caption>                    
+                <thead>
+                    <tr>
+                        <th scope="col">Nom </th>
+                        <th scope="col">Rôle </th>
+                        <th scope="col">Équipe</th>
+                    </tr>
+                </thead>
+                <tbody class="authors">
+                    {%- for author in currents -%}
+                        {%- include line-community.html author=author -%}
+                    {%- endfor -%}
+                </tbody>
+            </table>
         </div>
     </div>
 </div>
