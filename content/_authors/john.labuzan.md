@@ -18,7 +18,6 @@ missions:
       - lannuaire.des.collectivites
       - mediature
       - mon.espace.collectivite
-      - nosgestesclimat
       - signalement
 startups:
   - chauffage-urbain

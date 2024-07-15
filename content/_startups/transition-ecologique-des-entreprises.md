@@ -9,7 +9,14 @@ link: http://mission-transition-ecologique.beta.gouv.fr
 repository: https://github.com/betagouv/mission-transition-ecologique
 accessibility_status: non conforme
 dashlord_url: https://dashlord.incubateur-ademe.beta.gouv.fr/startup/transition-ecologique-des-entreprises
-stats: false
+stats: true
+stats_url: https://mission-transition-ecologique.beta.gouv.fr/stats
+analyse_risques: true
+analyse_risques_url: https://github.com/betagouv/mission-transition-ecologique/blob/main/SECURITY.md
+mon_service_securise: false
+events:
+  - name: committee
+    date: 2024-06-26
 phases:
   - name: investigation
     start: 2023-02-27
@@ -22,12 +29,9 @@ techno:
   - publi.codes
 usertypes:
   - entreprise
-stats_url: https://mission-transition-ecologique.beta.gouv.fr/stats
 thematiques:
   - Écologie
   - Entreprises
-analyse_risques: true
-analyse_risques_url: https://github.com/betagouv/mission-transition-ecologique/blob/main/SECURITY.md
 ---
 Le service public Transition Écologique des Entreprises est un guichet d'accueil, d'aide et d'accompagnement dans la transition écologique des entreprises.
 

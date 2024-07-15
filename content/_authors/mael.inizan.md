@@ -27,6 +27,7 @@ startups:
 previously:
   - collectif_objets
   - locadocs
+  - territoires-en-transitions
 competences:
   - UX
   - Coaching

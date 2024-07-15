@@ -10,7 +10,7 @@ missions:
     employer: LeGratin
     startups:
       - archifiltre
-startups:
+previously:
   - archifiltre
 memberType: beta
 ---

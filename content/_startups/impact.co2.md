@@ -14,6 +14,13 @@ stats_url: https://impactco2.fr/stats
 budget_url: https://impactco2.fr/budget
 analyse_risques: true
 analyse_risques_url: https://github.com/incubateur-ademe/impactco2/blob/main/SECURITY.md
+mon_service_securise: false
+events:
+  - name: committee
+    date: 2023-10-25
+    comment: Comité d’investissement d’automne
+  - name: committee
+    date: 2024-06-11
 phases:
   - name: construction
     start: 2021-02-01

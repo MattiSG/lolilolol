@@ -14,6 +14,10 @@ stats_url: https://www.territoiresentransitions.fr/stats
 budget_url: https://www.territoiresentransitions.fr/budget
 analyse_risques: true
 analyse_risques_url: https://github.com/betagouv/territoires-en-transitions/blob/upcoming_develop/SECURITY.md
+mon_service_securise: false
+events:
+  - name: committee
+    date: 2023-11-23
 phases:
   - name: investigation
     start: 2020-09-21
@@ -38,10 +42,6 @@ fast:
   montant: 300000
 thematiques:
   - Territoires
-events:
-  - name: fast
-    date: 2024-01-01
-    comment: Montant de 300000€ pour la promotion 14
 ---
 ## Contexte
 

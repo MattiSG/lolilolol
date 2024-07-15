@@ -14,6 +14,10 @@ stats_url: https://plusfraichemaville.fr/stats
 budget_url: https://plusfraichemaville.fr/budget
 analyse_risques: true
 analyse_risques_url: https://github.com/incubateur-ademe/plusfraichemaville-site/blob/main/SECURITY.md
+mon_service_securise: false
+events:
+  - name: committee
+    date: 2024-02-08
 phases:
   - name: investigation
     start: 2022-06-15
@@ -25,12 +29,14 @@ techno:
   - Next.js
   - React
   - TypeScript
-  - Directus
+  - Strapi
+  - AgentConnect
 redirect_from:
   - /startups/rafraichir.les.villes
 thematiques:
   - Écologie
-usertypes: []
+usertypes:
+  - collectivite-territoriale
 ---
 ## Contexte
 

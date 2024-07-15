@@ -5,7 +5,7 @@ role: Mentor
 github: Eric-Hei
 missions:
   - start: 2020-01-01
-    end: 2024-12-31
+    end: 2024-04-30
     status: admin
     employer: Fabrique numérique des ministères sociaux
     startups:
@@ -14,19 +14,11 @@ missions:
       - archifiltre
       - domifa
       - enfants-du-spectacle
-      - tumeplay
-  - start: 2024-05-01
-    end: 2026-01-12
-    status: admin
+  - status: admin
     employer: DINUM
-incubator: sgmas
-startups:
-  - 1000.jours
-  - tumeplay
-  - archifiltre
-  - domifa
-  - enfants-du-spectacle
-  - 1000.premiers.jours.blues
+    start: 2024-05-01
+    end: 2026-01-12
+incubator: dinum
 previously:
   - e-mjpm
   - workinfrance
@@ -34,6 +26,12 @@ previously:
   - didoc
   - medle
   - egalite.professionnelle
+  - 1000.jours
+  - tumeplay
+  - archifiltre
+  - domifa
+  - enfants-du-spectacle
+  - 1000.premiers.jours.blues
 competences:
   - Gestion de Produit
   - Administration Publique

@@ -15,9 +15,9 @@ missions:
     startups:
       - france.nation.verte.agir
 startups:
-  - nosgestesclimat
   - agora
 previously:
+  - nosgestesclimat
   - annuaire-entreprises
   - codedutravail
   - mes-aides

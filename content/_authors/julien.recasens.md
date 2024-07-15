@@ -6,7 +6,7 @@ missions:
   - start: 2024-01-19
     end: 2024-05-15
     status: independent
-    employer: Malt
+    employer: Octo/Malt
     startups:
       - territoires-en-transitions
   - start: 2024-05-21
@@ -14,7 +14,7 @@ missions:
     status: independent
     startups:
       - pass-sport
-startups:
+previously:
   - territoires-en-transitions
 memberType: beta
 link: https://www.linkedin.com/in/julien-recasens/

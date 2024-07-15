@@ -1,27 +1,47 @@
 ---
 title: Pacoupa
-mission: 'Aider les copropriétaires dans l''installation de systèmes de chauffage décarbonés adaptés à leur immeuble '
+mission: >-
+  Aider les copropriétaires dans l'installation de systèmes de chauffage
+  décarbonés adaptés à leur immeuble
 sponsors:
   - /organisations/ademe
 incubator: ademe
 contact: pacoupa@beta.gouv.fr
+link: https://pacoupa.ademe.fr
+repository: https://github.com/incubateur-ademe/pacoupa
 accessibility_status: non conforme
+dashlord_url: https://dashlord.incubateur-ademe.beta.gouv.fr/startup/pacoupa
+stats: true
+stats_url: https://pacoupa.ademe.fr/stats
+budget_url: https://pacoupa.ademe.fr/budget
+analyse_risques: true
+analyse_risques_url: https://github.com/incubateur-ademe/pacoupa/blob/main/SECURITY.md
+mon_service_securise: false
+events:
+  - name: committee
+    date: 2023-11-24
+    comment: Comité de fin d'investigation
+  - name: committee
+    date: 2024-06-03
 phases:
   - name: investigation
     start: 2023-05-25
   - name: construction
     start: 2024-01-22
-link: https://pacoupa.ademe.fr
-repository: https://github.com/incubateur-ademe/pacoupa
+techno:
+    - Next.js
+    - React
+    - TypeScript
+    - SQLite
 thematiques:
   - Logement
   - Écologie
 ---
 ## Problème
 
-L’objectif du nombre de rénovations énergétiques des logements est très ambitieux et les réalisations ne sont pas au rendez-vous. Le parcours de rénovation est jugé long et complexe, à fortiori pour les copropriétés nécessitant, pour prendre des décisions, un vote par les copropriétaires en Assemblée Générale, ce qui est un obstacle important. 
+L’objectif du nombre de rénovations énergétiques des logements est très ambitieux et les réalisations ne sont pas au rendez-vous. Le parcours de rénovation est jugé long et complexe, à fortiori pour les copropriétés nécessitant, pour prendre des décisions, un vote par les copropriétaires en Assemblée Générale, ce qui est un obstacle important.
 
-Cependant, le contexte devient de plus en plus favorable aux questionnements et à la réalisation de travaux : augmentation du prix des énergies, réglementations et lois contraignantes, conscience écologique, confort face à des températures plus extrêmes notamment en été, etc. 
+Cependant, le contexte devient de plus en plus favorable aux questionnements et à la réalisation de travaux : augmentation du prix des énergies, réglementations et lois contraignantes, conscience écologique, confort face à des températures plus extrêmes notamment en été, etc.
 
 Le remplacement du système de chauffage est très souvent le déclencheur de ces réflexions, présentant cependant le risque de rester en fossile ou de remplacer le système fossile par un système décarboné sans isoler au préalable, faute de connaissances ou d’accompagnement pendant cette démarche.
 
@@ -40,7 +60,7 @@ PACOUPA est une brique de la massification de la rénovation des copropriétés 
 
 L’objectif est d’aider les copropriétaires à trouver les arguments rationnels et percutants pour convaincre en assemblée générale de faire voter les études nécessaires à la définition du projet de rénovation incluant des énergies renouvelables (pompe à chaleur, réseau de chaleur, biomasse, solaire thermique…) et des gestes d’isolation souvent indispensables pour gagner substantiellement en consommation d’énergie.
 
-Les indicateurs d’impact sont : 
+Les indicateurs d’impact sont :
 
 - l’audience touchée (nombre de visites et visiteur-rice-s) ;
 - nombre d’utilisateur-rice-s pour lesquels ce simulateur a été décisif dans leur choix de chauffage décarboné ;

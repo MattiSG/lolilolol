@@ -8,17 +8,15 @@ missions:
     status: independent
     employer: Numa
     startups:
-      - mano
-      - nosgestesclimat
       - refugies.info
 memberType: beta
 startups:
-  - nosgestesclimat
   - refugies.info
   - mano
 teams:
   - /teams/fast-dinum
 previously:
+  - nosgestesclimat
   - 1000.premiers.jours.blues
 ---
 Coach FAST

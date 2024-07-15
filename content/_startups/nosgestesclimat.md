@@ -14,12 +14,14 @@ stats_url: https://nosgestesclimat.fr/stats
 budget_url: https://nosgestesclimat.fr/budget
 analyse_risques: true
 analyse_risques_url: https://github.com/incubateur-ademe/incubateur-ademe/blob/master/SECURITY.md
+mon_service_securise: false
 events:
   - name: national_impact
     date: 2022-12-31
-  - name: fast
-    date: 2024-01-01
-    comment: Montant de 230000€ pour la promotion 12
+  - name: committee
+    date: 2023-10-24
+  - name: committee
+    date: 2024-05-23
 phases:
   - name: success
     comment: Spin-off de Datagir
