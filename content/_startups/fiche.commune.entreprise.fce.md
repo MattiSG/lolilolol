@@ -24,7 +24,9 @@ phases:
     end: 2022-12-16
   - name: transfer
     start: 2021-01-01
-    end: 2022-05-01
+    end: 2022-12-01
+- name: success
+ start: 2020-07-01
 thematiques: []
 techno: []
 ---
@@ -87,23 +89,6 @@ Restituer à un décideur (Préfet, Ministre…), en un minimum de temps, une fi
 
 Mieux connues a priori par l'administration, les entreprises ont une vision d’une administration mieux intégrée et donc plus performante. Elles bénéficient directement de cette meilleure utilisation collective des informations par le biais de contrôles ou d’interventions adaptés à leur situation et à leurs relations avec l’administration.
 
-## Stratégie
-
-* marketing du produit (logo, slogan, landing page, nouvelles pages)
-* tutos vidéos
-* kit de communication
-* mise en place d’une stratégie d’acquisition 
-* mise en place d’une newsletter
-* *scrapping* contacts Direccte 
-* organisation de webinaires
-* publications sur les intranets et lettres d'information
-
-**Objectif visé** :
-
-* Atteindre 5000 utilisateurs sur les 9000 potentiels de FCE
-
-L'équipe poursuit la recherche de ses mesures d'impact.
-
 \----
 
-Le produit a été transféré à la Direction du Numérique des Ministères sociaux fin 2022.
+Le produit a été transféré et pérennisé au sein de la Sous-Direction des Projets et Services Numériques (SDPSN) de la Direction du Numérique des Ministères sociaux fin 2022.
