@@ -10,13 +10,13 @@ link: https://covoiturage.beta.gouv.fr/
 repository: https://github.com/betagouv/preuve-covoiturage
 contact: contact@covoiturage.beta.gouv.fr
 stats: true
-accessibility_status: non conforme
+dashlord_url: https://dashlord.incubateur.net/url/covoiturage-beta-gouv-fr/
 analyse_risques: true
 analyse_risques_url: https://covoiturage.beta.gouv.fr/.well-known/security-policy.txt
+accessibility_status: partiellement conforme
 usertypes:
   - collectivite-territoriale
 stats_url: https://stats.covoiturage.beta.gouv.fr/embed/dashboard/3bec1692-1456-41c2-95a9-6606af329df9
-dashlord_url: https://dashlord.incubateur.net/url/covoiturage-beta-gouv-fr/
 events:
   - name: national_impact
     date: 2023-12-31
