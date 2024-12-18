@@ -1,0 +1,19 @@
+name: pa11y
+on:
+  push:
+    branches: "*"
+  pull_request:
+    branches: "*"
+jobs:
+  pa11y:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Run pa11y
+        run: |
+          npm install -g pa11y
+          pa11y https://beta.gouv.fr

@@ -1,0 +1,53 @@
+name: axe-core Tests
+
+on:
+  push:
+    branches: "*"
+  pull_request:
+    branches: "*"
+
+permissions:
+  pull-requests: write
+
+jobs:
+  axe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install axe
+        shell: bash
+        run: |          
+          npm install -g @axe-core/cli 
+      - name: Run axe
+        id: axe
+        shell: bash
+        run: |
+          {
+            echo 'AXE_OUTPUT<<EOF'
+            axe https://beta.gouv.fr
+            echo EOF
+          } >> "$GITHUB_ENV"
+
+      - name: Read result
+        run: |
+          echo "$AXE_OUTPUT"
+
+      - name: Post result
+        if: ${{ contains(env.AXE_OUTPUT, 'Accessibility issues detected') }}
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          message: |
+            ### Rapport d'accessibilité [axe-core](https://github.com/dequelabs/axe-core) pour ${{ github.sha }} to <https://beta.gouv.fr>
+            
+            ```
+            ${{ env.AXE_OUTPUT }}
+            ```        
+
+      - name: Exit code
+        if: ${{ contains(env.AXE_OUTPUT, 'Accessibility issues detected') }}
+        run: |
+          exit 1
