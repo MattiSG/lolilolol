@@ -5,9 +5,10 @@ sponsors:
   - /organisations/solidarite-sante
 incubator: sgmas
 link: https://mano.sesan.fr/
-repository: https://github.com/SocialGouv/mano/
-contact: guillaume.demirhan@sesan.fr
-stats_url: https://mano.sesan.fr/stats/
+repository: https://github.com/mano-sesan/mano/
+contact: caroline.de_kerhor@beta.gouv.fr
+stats_url: >-
+  https://metabase-mano.fabrique.social.gouv.fr/public/dashboard/825cc4ad-b502-4483-aa78-c2af56032bc9
 stats: true
 events:
   - name: fast
