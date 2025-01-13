@@ -30,6 +30,13 @@ layout: null
                 {% endfor %}
             ]
             {% endif %}
+            {% if author.teams %}
+            , "teams": [
+                {% for team in author.teams %}
+                    "{{team}}"{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+            ]
+            {% endif %}
             {% if author.previously %}
             , "previously": [
                 {% for previous in author.previously %}

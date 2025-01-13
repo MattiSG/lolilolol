@@ -1,0 +1,19 @@
+---
+layout: null
+---
+
+{ "links":
+    { "self": "{{ site.url }}/teams" }
+, "data":
+    [
+    {% for team in site.teams %}
+        { "id"        : "{{ team.id | remove: '/team/' }}"
+        , "type"      : "team"
+        , "name" : "{{ team.name }}"
+        , "mission" : "{{ team.mission | strip_newlines }}"
+        , "incubator" : "{{ team.incubator }}"
+        }
+        {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    ]
+}
