@@ -65,7 +65,7 @@ Le simulateur reprise d'emploi anciennement Estime reprise d'emploi a prouvé qu
 
 Parce que c'est très compliqué de s'y retrouver dans tous les dispositifs, les bénéficiaires pensent qu'ils sont perdants financièrement s'ils rentrent en formation alors qu'en réalité dans la plupart des cas, ils sont gagnants financièrement !
 
-Les accompagnants du Réseau Pour l'Emploi (conseillers Pôle emploi, prestataires des départements, associations..) ne savent pour la plupart pas calculer l'impact financier d'une rémunération sur les aides et allocations perçues par le bénéficiaires. Ils ne peuvent donc pas lever ce frein à l'entrée en formation.
+Les accompagnants du Réseau Pour l'Emploi (conseillers Pôle emploi, prestataires des départements, associations..) ne savent pour la plupart pas calculer l'impact financier d'une rémunération sur les aides et allocations perçues par le bénéficiaire. Ils ne peuvent donc pas lever ce frein à l'entrée en formation.
 
 
 
@@ -82,7 +82,7 @@ Ce simulateur permet d'accéder à 3 niveaux de simulation selon le degré de ma
 
 Pour les simulations détaillées et simplifiées, le résultat indiquera jusqu'à 10 aides et allocations selon la situation du foyer (RSA, ASS, Prime d'activité, Aide au logement, aide à la mobilité ....)
 
- Il y a également la possibilité en fin de simulation d'être redirigé vers d'autres services en lien avec le projet de formation ( Trouver ma formation, Immersion Facilitée, Mes Aides, Mes évènements Emploi, Mon enfant.fr, le site de la Région et prochainement Métier Scope)
+ Il y a également la possibilité en fin de simulation d'être redirigé vers d'autres services en lien avec le projet de formation ( Trouver ma formation, Immersion Facilitée, Mes Aides, Mes évènements Emploi, Mon enfant.fr, le site de la Région et Métier Scope)
 
 Le bénéficiaire pourra également télécharger un PDF imprimable du résultat de l'estimation.
 
@@ -90,7 +90,7 @@ Le bénéficiaire pourra également télécharger un PDF imprimable du résultat
 **Stratégie**
 
 Dans un premier temps, nous nous sommes appuyés sur les accompagnants du Réseau Pour l'Emploi pour déployer la solution. Aujourd'hui, ils sont nos principaux ambassadeurs et nous continuons à leur déployer la solution dès l'ouverture d'un nouveau territoire.
-Dans le cadre de l'expérimentation RSA, le service a tout d'abord été ouvert pour les bénéficiaires du RSA puis nous avons ajouté petit-à-petit d'autres publics et d'autres dispositifs afin de toucher à terme la majorité des bénéficiaires des minimas sociaux  (environ 2,5 millions). Nous envisageons également d'ouvrir aux autres publics avec de faibles ressources qui ont un besoin de se projeter financièrement avant de se lancer dans un projet de formation. 
+Dans le cadre de l'expérimentation RSA, le service a tout d'abord été ouvert pour les bénéficiaires du RSA puis nous avons ajouté petit-à-petit d'autres publics et d'autres dispositifs afin de toucher à terme la majorité des bénéficiaires des minimas sociaux  (environ 2,5 millions). Nous avons également ouverts à d'autres publics avec de faibles ressources qui ont un besoin de se projeter financièrement avant de se lancer dans un projet de formation. 
 
 **Notre objectif est d'augmenter le taux d'entrée en formation des personnes qui auront bénéficié de notre solution.**
 
@@ -112,4 +112,4 @@ Pour les autres publics, ils ont accès à une page d'information spécifique se
 - Centre Val de Loire
 - Corse
 
-Et d'ici la fin de l'année 2024, nous envisageons d'ouvrir à l'ensemble de la Métropole et début 2025, aux Départements et Régions d'Outre-Mer.
+Durant l'année 2025, nous envisageons d'ouvrir à l'ensemble de la Métropole et aux Départements et Régions d'Outre-Mer.

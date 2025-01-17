@@ -9,8 +9,8 @@ competences:
 missions:
   - start: 2025-01-15
     end: 2025-12-31
-    employer: EIG
     status: admin
+    employer: EIG
     startups:
       - bat-id
 ---

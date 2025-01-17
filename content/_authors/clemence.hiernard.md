@@ -5,7 +5,7 @@ domaine: Déploiement
 github: ClemenceHiernard
 missions:
   - start: 2022-11-07
-    end: 2025-01-07
+    end: 2025-01-31
     status: independent
     employer: Malt
     startups:

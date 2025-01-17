@@ -2,7 +2,7 @@
 fullname: Samuel Pirès
 role: Product manager
 domaine: Produit
-link: https://www.samuelpires.fr
+link: https://samuelpires.fr
 github: sam-pires
 missions:
   - start: 2023-10-01

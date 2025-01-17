@@ -13,8 +13,8 @@ competences:
 missions:
   - start: 2025-01-22
     end: 2025-06-27
-    employer: Malt
     status: independent
+    employer: Malt
     startups:
       - plateforme-agriculteurs
 ---

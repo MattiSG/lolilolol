@@ -8,8 +8,8 @@ competences:
 missions:
   - start: 2024-11-04
     end: 2025-12-31
-    employer: pass culture
     status: admin
+    employer: pass culture
     startups:
       - pass-culture
 ---

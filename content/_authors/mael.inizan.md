@@ -19,7 +19,6 @@ missions:
     startups:
       - chauffage-urbain
       - mesaidesreno
-      - territoires-en-transitions
 teams:
   - /teams/dinum-incubateur
 competences:

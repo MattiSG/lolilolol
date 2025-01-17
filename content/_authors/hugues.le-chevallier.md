@@ -7,7 +7,6 @@ competences: []
 missions:
   - start: 2025-01-15
     end: 2026-01-15
-    employer: EIG
     status: admin
-    startups: []
+    employer: EIG
 ---
